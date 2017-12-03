@@ -125,7 +125,8 @@ class circuloOm_h extends circuloOm_b implements Gallifreyan{
   }
   void disp(){
     super.disp();
-    
+    strokeWeight(3);
+    stroke(255);
     float px1= (float)x + radio*cos(radians(60));
     float py1= (float)y - radio*sin(radians(60));
     float px2= px1+15;
