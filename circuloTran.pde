@@ -1,11 +1,11 @@
-class circuloTan_j implements Gallifreyan{
-   int x;
-   int y;
-   int radio;
-   int diameter;
-  private static final String LETRA="j";
-  
-  circuloTan_j(int a,int b,int c){
+
+class circuloTran_th implements Gallifreyan{
+  int x;
+  int y;
+  int radio;
+  int diameter;
+  private static final String LETRA="th";
+  circuloTran_th(int a,int b,int c){
     this.x=a;
     this.y=b;
     this.radio=c/2;
@@ -18,16 +18,13 @@ class circuloTan_j implements Gallifreyan{
     ellipse(x,y,diameter,diameter);
   }
 }
-
-class circuloTan_k extends circuloTan_j implements Gallifreyan{
-  private static final String LETRA="k";
-  circuloTan_k(int a,int b,int c){
+class circuloTran_y extends circuloTran_th implements Gallifreyan{
+  private static final String LETRA="y";
+  circuloTran_y(int a,int b,int c){
     super(a,b,c);
   }
   void disp(){
-    
     super.disp();
-    
     strokeWeight(3);
     fill(#FFFFFF);
     ellipse(x-diameter/4,y-diameter/4,diameter/6,diameter/6);
@@ -35,9 +32,9 @@ class circuloTan_k extends circuloTan_j implements Gallifreyan{
   }
 }
 
-class circuloTan_l extends circuloTan_j implements Gallifreyan{
-  private static final String LETRA="l";
-  circuloTan_l(int a,int b,int c){
+class circuloTran_z extends circuloTran_th implements Gallifreyan{
+  private static final String LETRA="z";
+  circuloTran_z(int a,int b,int c){
     super(a,b,c);
   }
   void disp(){
@@ -50,11 +47,9 @@ class circuloTan_l extends circuloTan_j implements Gallifreyan{
   }
 }
 
-
-
-class circuloTan_m extends circuloTan_j implements Gallifreyan{
-  private static final String LETRA="m";
-  circuloTan_m(int a,int b,int c){
+class circuloTran_ng extends circuloTran_th implements Gallifreyan{
+  private static final String LETRA="ng";
+  circuloTran_ng(int a,int b,int c){
     super(a,b,c);
   }
   void disp(){
@@ -76,15 +71,12 @@ class circuloTan_m extends circuloTan_j implements Gallifreyan{
     px2= px1-15;
     py2= py1-70;
     line(px1,py1,px2,py2);
-    
-    
   }
-  
 }
 
-class circuloTan_n extends circuloTan_j implements Gallifreyan{
-  private static final String LETRA="n";
-  circuloTan_n(int a,int b,int c){
+class circuloTran_qu extends circuloTran_th implements Gallifreyan{
+  private static final String LETRA="qu";
+  circuloTran_qu(int a,int b,int c){
     super(a,b,c);
   }
   void disp(){
@@ -94,15 +86,13 @@ class circuloTan_n extends circuloTan_j implements Gallifreyan{
     float px2= px1;
     float py2= py1-70;
     line(px1,py1,px2,py2);
-    
   }
-  
 }
 
 
-class circuloTan_p extends circuloTan_j implements Gallifreyan{
-  private static final String LETRA="p";
-  circuloTan_p(int a,int b,int c){
+class circuloTran_x extends circuloTran_th implements Gallifreyan{
+  private static final String LETRA="x";
+  circuloTran_x(int a,int b,int c){
     super(a,b,c);
   }
   void disp(){
@@ -113,12 +103,12 @@ class circuloTan_p extends circuloTan_j implements Gallifreyan{
     float py2= py1-70;
     line(px1,py1,px2,py2);
     
-    
+
     px1= (float)x + radio*cos(radians(120));
     py1= (float)y - radio*sin(radians(120));
     px2= px1-15;
     py2= py1-70;
     line(px1,py1,px2,py2);
-     
-  }  
+  }
+  
 }

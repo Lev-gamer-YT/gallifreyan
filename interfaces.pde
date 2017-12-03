@@ -1,0 +1,4 @@
+interface Gallifreyan{
+
+void disp();
+}
