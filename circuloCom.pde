@@ -45,6 +45,8 @@ class circuloCom_r extends circuloCom_t implements Gallifreyan {
   }
   void disp() {
     super.disp();
+    noStroke();
+    fill(#FFFFFF);
     ellipse(x-diameter/4, y-diameter/4, diameter/7, diameter/7);
     ellipse(x+diameter/4, y-diameter/4, diameter/7, diameter/7);
     ellipse(x, y-diameter/3.5, diameter/7, diameter/7);
@@ -98,7 +100,7 @@ class circuloCom_v extends circuloCom_t implements Gallifreyan {
 }
 
 class circuloCom_w extends circuloCom_t implements Gallifreyan {
- 
+  private static final String LETRA="w";
   circuloCom_w(int a, int b, int c) {
     super(a, b, c);
   }

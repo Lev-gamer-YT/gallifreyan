@@ -14,7 +14,7 @@ class circuloTran_th implements Gallifreyan{
   void disp(){
     strokeWeight(3);
     stroke(#FFFFFF);
-    ;
+    noFill();
     ellipse(x,y,diameter,diameter);
   }
 }

@@ -161,13 +161,37 @@ void keyPressed(){
              obj19.disp();
              println(obj19.LETRA);
              break;
+             
+           case 'v':
+             count++;
+             circuloCom_v obj20= new circuloCom_v(count*55,127,50);
+             obj20.disp();
+             println(obj20.LETRA);
+             break;
+             
+           case 'w':
+             count++;
+             circuloCom_w obj21= new circuloCom_w(count*55,127,50);
+             obj21.disp();
+             println(obj21.LETRA);
+             break;
               
-           //case 't':
-           //  count++;
-           //  circuloCom_t obj12= new circuloCom_t(count*55,127,50);
-           //  obj12.disp();
-           //  println(obj12.LETRA);
-           //  break;
+           
+           case 't':
+             if(textUser.charAt(i+1)=='h'){
+              count++;
+              circuloTran_th obj13= new circuloTran_th (count*55,125,50);
+              obj13.disp();
+              println(obj13.LETRA);
+              i++;
+              }
+             else{
+              count++;
+              circuloCom_t obj14= new circuloCom_t(count*55,127,50);
+              obj14.disp();
+              println(obj14.LETRA);
+             }
+             break;
             
            
            case 's':
@@ -184,8 +208,15 @@ void keyPressed(){
               obj14.disp();
               println(obj14.LETRA);
              }
-              break; 
+             break; 
              
+           case 'r':
+             count++;
+             circuloCom_r obj13= new circuloCom_r(count*55,127,50);
+             obj13.disp();
+             println(obj13.LETRA);
+             break;
+            
               
              
              
