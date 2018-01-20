@@ -18,6 +18,26 @@ class circuloCom_t implements Gallifreyan {
     arc(x, y, diameter, diameter, PI, PI+PI);
     noFill();
   }
+  
+  void add_a(){
+    stroke(#FFFFFF);
+    strokeWeight(2);
+    fill(0,0,0,0);
+    ellipse(x+ (diameter/2),y, diameter/3, diameter/3);
+    noFill();
+  }
+  
+  void add_e(){
+  
+  }
+  void add_i(){
+  
+  }
+  void add_o(){
+  
+  }
+  void add_u(){
+  }
 }
 
 class circuloCom_sh extends circuloCom_t implements Gallifreyan {
