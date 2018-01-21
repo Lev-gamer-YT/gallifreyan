@@ -22,21 +22,43 @@ class circuloCom_t implements Gallifreyan {
   void add_a(){
     stroke(#FFFFFF);
     strokeWeight(2);
-    fill(0,0,0,0);
-    ellipse(x+ (diameter/2),y, diameter/3, diameter/3);
+    noFill();
+    ellipse(x,y+ (diameter/2), diameter/3, diameter/3);
     noFill();
   }
   
   void add_e(){
+    
+    stroke(#FFFFFF);
+    strokeWeight(2);
+    noFill();
+    ellipse(x,y, diameter/3, diameter/3);
+    noFill();
   
   }
   void add_i(){
-  
+    stroke(#FFFFFF);
+    strokeWeight(2);
+    noFill();
+    ellipse(x,y, diameter/3, diameter/3);
+    noFill();
+    line(x,y-((diameter/3)/2),x,y-((diameter/3)/2)-15);
   }
   void add_o(){
+    stroke(#FFFFFF);
+    strokeWeight(2);
+    noFill();
+    ellipse(x,y- (diameter/2), diameter/3, diameter/3);
+    noFill();
   
   }
   void add_u(){
+    stroke(#FFFFFF);
+    strokeWeight(2);
+    noFill();
+    ellipse(x,y, diameter/3, diameter/3);
+    noFill();
+    line(x,y+((diameter/3)/2),x,y+((diameter/3)/2)+15);
   }
 }
 

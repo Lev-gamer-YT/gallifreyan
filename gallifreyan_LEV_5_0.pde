@@ -232,6 +232,10 @@ void keyPressed(){
               values.add(obj13);
               obj13.disp();
               obj13.add_a();
+              obj13.add_e();
+              obj13.add_i();
+              obj13.add_o();
+              obj13.add_u();
               println(obj13.LETRA);
               i++;
               }
@@ -258,7 +262,7 @@ void keyPressed(){
            case 'i':
              break;
            case 'o':
-             break;cd ~
+             break;
            case 'u':
              break;
               
