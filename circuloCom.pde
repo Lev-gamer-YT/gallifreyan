@@ -1,5 +1,10 @@
 
 class circuloCom_t implements Gallifreyan {
+  boolean VA=false;
+  boolean VE=false;
+  boolean VI=false;
+  boolean VO=false;
+  boolean VU=false;
   int x;
   int y;
   int diameter;
@@ -17,6 +22,22 @@ class circuloCom_t implements Gallifreyan {
     fill(#000000);
     arc(x, y, diameter, diameter, PI, PI+PI);
     noFill();
+    if(VA){
+      add_a();
+    }
+    if(VE){
+      add_e();
+    }
+    if(VI){
+      add_i();
+    }
+    if(VO){
+      add_o();
+    }
+    if(VU){
+      add_u();
+    }
+    
   }
   
   void add_a(){

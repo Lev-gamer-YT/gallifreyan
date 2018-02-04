@@ -17,6 +17,47 @@ class circuloTran_th implements Gallifreyan{
     noFill();
     ellipse(x,y,diameter,diameter);
   }
+    void add_a(){
+    stroke(#FFFFFF);
+    strokeWeight(2);
+    noFill();
+    ellipse(x,y+ (diameter/2), diameter/3, diameter/3);
+    noFill();
+  }
+  
+  void add_e(){
+    
+    stroke(#FFFFFF);
+    strokeWeight(2);
+    noFill();
+    ellipse(x,y, diameter/3, diameter/3);
+    noFill();
+  
+  }
+  void add_i(){
+    stroke(#FFFFFF);
+    strokeWeight(2);
+    noFill();
+    ellipse(x,y, diameter/3, diameter/3);
+    noFill();
+    line(x,y-((diameter/3)/2),x,y-((diameter/3)/2)-15);
+  }
+  void add_o(){
+    stroke(#FFFFFF);
+    strokeWeight(2);
+    noFill();
+    ellipse(x,y- (diameter/2), diameter/3, diameter/3);
+    noFill();
+  
+  }
+  void add_u(){
+    stroke(#FFFFFF);
+    strokeWeight(2);
+    noFill();
+    ellipse(x,y, diameter/3, diameter/3);
+    noFill();
+    line(x,y+((diameter/3)/2),x,y+((diameter/3)/2)+15);
+  }
 }
 class circuloTran_y extends circuloTran_th implements Gallifreyan{
   private static final String LETRA="y";
